@@ -19,8 +19,11 @@ $partite = [
     'puntiOspite' => '82'
     ],
        
-    ];
+    ]; 
 
+
+
+    
     for($i=0; $i<count($partite); $i++){
    
 
@@ -30,7 +33,7 @@ $partite = [
   <span>
     <?= $partite[$i]['squadraCasa'] ?> -
     <?= $partite[$i]['squadraOpsite'] ?>  | 
-      <?= $partite[$i]['puntiCasa'] ?> -
+    <?= $partite[$i]['puntiCasa'] ?> -
     <?= $partite[$i]['puntiOspite'] ?>  
 </span>
 
@@ -38,6 +41,7 @@ $partite = [
 
 <?php
     }
+
 
 ?>
 
