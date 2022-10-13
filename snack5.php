@@ -35,11 +35,7 @@ $students = [
   
 ];
 for($i= 0 ; $i < count($students); $i++) {
-?>
-    <h3>Name: <?= $students[$i]['name']?></h3>
 
-    <h3>Surname: <?= $students[$i]['surname']?></h3>
-<?php
     $allVotes = 0;
     // Voti Studenti
     for($j = 0;$j < count($students[$i]['votes']); $j++ ){
@@ -48,6 +44,13 @@ for($i= 0 ; $i < count($students); $i++) {
     }
     $media = $allVotes / 4 ; // Media Voti
 ?>
+    <h3>Name: <?= $students[$i]['name']?></h3>
+
+    <h3>Surname: <?= $students[$i]['surname']?></h3>
+
+    
+
+
 <h2>Media: <?=  $media?></h2> 
 
 <?php
