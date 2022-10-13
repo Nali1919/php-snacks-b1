@@ -37,9 +37,7 @@ $students = [
 for($i= 0 ; $i < count($students); $i++) {
 ?>
     <h3>Name: <?= $students[$i]['name']?></h3>
-<?php
 
-?>
     <h3>Surname: <?= $students[$i]['surname']?></h3>
 <?php
     $allVotes = 0;
@@ -59,4 +57,7 @@ for($i= 0 ; $i < count($students); $i++) {
 
 ?>
 
-?>
+
+
+
+
